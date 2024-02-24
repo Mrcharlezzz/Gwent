@@ -17,7 +17,7 @@ public class UnitCard : Card
         //Initialize
         public UnitCard(string name,Sprite image,Card.Type type, string carddescription,Card.Faction faction,int baseatk,int atk,string effectdescription,UnitCard.Position position)
         {
-            this.name=name;
+            Name=name;
             this.image=image;
             this.type=type;
             this.carddescription=carddescription;

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class BoostCard : Card
     {
-        public bool melee {get; set;}
-        public bool ranged {get; set;}
-        public bool siege {get; set;}
+        public enum Position
+        {
+            M,R,S,MR,MS,RS,MRS //Rows where the boost can be played M(Melee) R(Range) S(Siege)
+        }
         public int boost {get; set;}
     }

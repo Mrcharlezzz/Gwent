@@ -8,13 +8,13 @@ using UnityEngine.SocialPlatforms.Impl;
 
 
 
-public class Card
-    {
-        public string name {get;set;}
-        public Sprite image {get;set;}
-        public Type type{get;set;}
-        public string carddescription {get;set;}
-        public Faction faction{get;set;}
+public class Card: MonoBehaviour
+{
+        public string Name;
+        public Sprite image;
+        public Type type;
+        public string carddescription;
+        public Faction faction;
  
         public enum Type
     {
@@ -33,8 +33,9 @@ public class Card
         Egypt,
         Neutral,
     }
-
 }
+
+
 
     
  
